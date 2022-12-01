@@ -1,7 +1,7 @@
 {
-    "name": "scottybo/laravel-google-my-business",
+    "name": "teuunn/laravel-google-my-business",
     "description": "A package for Laravel which implements the Google My Business API",
-    "keywords": ["google", "google my business", "laravel", "laravel5"],
+    "keywords": ["google", "google my business", "laravel", "laravel8", "laravel9"],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -9,24 +9,24 @@
             "email": "scott.bowler@dcsworldwide.net"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.2",
-        "illuminate/support": "6.* || 7.* || 8.*",
+        "php": ">=7.4",
+        "illuminate/support": "6.* || 7.* || 8.* || 9.*",
         "google/apiclient": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Scottybo\\LaravelGoogleMyBusiness\\": "src"
+            "Teuunn\\LaravelGoogleMyBusiness\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Scottybo\\LaravelGoogleMyBusiness\\GoogleMyBusinessServiceProvider"
+                "Teuunn\\LaravelGoogleMyBusiness\\GoogleMyBusinessServiceProvider"
             ],
             "aliases": {
-                "GoogleMyBusiness": "Scottybo\\LaravelGoogleMyBusiness\\Facades\\GoogleMyBusinessFacade"
+                "GoogleMyBusiness": "Teuunn\\LaravelGoogleMyBusiness\\Facades\\GoogleMyBusinessFacade"
             }
         }
     }

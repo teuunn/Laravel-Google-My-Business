@@ -32,12 +32,12 @@ Once you've finished debugging, remove this added line.
 
 ## Installation
 
-Run `composer require scottybo/laravel-google-my-business`
+Run `composer require teuunn/laravel-google-my-business`
 
 Or to install via composer - edit your composer.json to require the package.
 
 "require": {
-    "scottbo/laravel-google-my-business": "1.*"
+    "teuunn/laravel-google-my-business": "1.*"
 }
 
 Then run `composer update` in your terminal to pull it in.
@@ -51,13 +51,13 @@ Then run `composer update` in your terminal to pull it in.
 To use this Google My Business package in a Laravel project add the following to the `providers` array in your `config/app.php`
 
 ```php
-Scottybo\LaravelGoogleMyBusiness\GoogleMyBusinessServiceProvider::class,
+Teuunn\LaravelGoogleMyBusiness\GoogleMyBusinessServiceProvider::class,
 ```
 
 Next add the following to the `aliases` array in your `config/app.php`
 
 ```php
-'GoogleMyBusiness' => Scottybo\LaravelGoogleMyBusiness\GoogleMyBusiness::class
+'GoogleMyBusiness' => Teuunn\LaravelGoogleMyBusiness\GoogleMyBusiness::class
 ```
 
 ## Google My Business Discovery document

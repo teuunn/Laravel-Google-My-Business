@@ -30,7 +30,7 @@
  * @author Google, Inc.
  */
 
-namespace Scottybo\LaravelGoogleMyBusiness;
+namespace Teuunn\LaravelGoogleMyBusiness;
 
 use Google_Service;
 use Google_Service_Resource;

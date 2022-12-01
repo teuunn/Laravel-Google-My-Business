@@ -1,6 +1,6 @@
 <?php
 
-namespace Scottybo\LaravelGoogleMyBusiness;
+namespace Teuunn\LaravelGoogleMyBusiness;
 
 use Google_Client;
 use Illuminate\Support\ServiceProvider;
